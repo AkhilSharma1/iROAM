@@ -1,9 +1,4 @@
 import {Mongo} from 'meteor/mongo'
 
-export const Pressures = new Mongo.Collection("pressures")
-
-Pressures.allow({
-  insert: function() {
-    return true
-  }
-})
+export const lForce = new Mongo.Collection("lforce")
+export const rForce = new Mongo.Collection("rforce")

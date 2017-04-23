@@ -11,6 +11,6 @@ Tracker.autorun(() => {
   onAuthChange(isAuthenticated)
 })
 
-Meteor.startup(() => {  
+Meteor.startup(() => {
   ReactDOM.render(routes, document.getElementById('app'))
 })
